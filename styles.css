@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 100vw;
+    height: 40px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.flexbox-container {
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 90vh;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.flexbox-item {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+img {
+    height: 90%;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
